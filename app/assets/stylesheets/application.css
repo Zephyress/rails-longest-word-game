@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.letter {
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+  vertical-align: top;
+  text-align: center;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  margin: 10px 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  margin: 35px 10px;
+}
+
+.input {
+  width: 80%;
+  left: 0;
+}
